@@ -611,6 +611,10 @@ pre code {
   margin-left: 0;
 }
 
+.center{
+  text-align: center;
+}
+
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
   padding-right: 0;
