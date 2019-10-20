@@ -3,18 +3,18 @@ import React, { Component } from 'react';
 import Header from './Header';
 
 
-import Menu from '../admin/Menu';
-import Footer from '../admin/Footer';
+import Menu from './Menu';
+import Footer from './Footer';
 
  class AdminProfile extends Component {
-  render() {
-    return (
+    render() {
+     return (
       <div>
         <Header/>
         <Menu/>
         <Footer/>
       </div>
-    )
+    );
   }
 }
 export default AdminProfile;
